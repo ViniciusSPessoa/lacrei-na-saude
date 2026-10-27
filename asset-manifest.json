@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.js": "/lacrei-na-saude/static/js/main.3a40c2e1.js",
+    "main.js": "/lacrei-na-saude/static/js/main.68b8ef01.js",
     "static/media/médico03.jpg": "/lacrei-na-saude/static/media/médico03.82efe2b521f3a9dade90.jpg",
     "static/media/médico05.jpg": "/lacrei-na-saude/static/media/médico05.5b96e6634b03ad63061e.jpg",
     "static/media/médico04.jpg": "/lacrei-na-saude/static/media/médico04.14bde4b5c2246c4eff63.jpg",
@@ -9,9 +9,9 @@
     "static/media/médico01.jpg": "/lacrei-na-saude/static/media/médico01.abd24eab087e896de0e5.jpg",
     "static/media/logo.png": "/lacrei-na-saude/static/media/logo.ae06772848cc6b42c8f0.png",
     "index.html": "/lacrei-na-saude/index.html",
-    "main.3a40c2e1.js.map": "/lacrei-na-saude/static/js/main.3a40c2e1.js.map"
+    "main.68b8ef01.js.map": "/lacrei-na-saude/static/js/main.68b8ef01.js.map"
   },
   "entrypoints": [
-    "static/js/main.3a40c2e1.js"
+    "static/js/main.68b8ef01.js"
   ]
 }
