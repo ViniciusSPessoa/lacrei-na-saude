@@ -95,7 +95,7 @@ export const Subtitulo = styled.h2`
 export const Paragrafo = styled.p`
     font-size: 30px;
     text-align: center;
-    margin: 0 20px;
+    margin: 0 20px 30px 20px;
 `
 
 export const Profissionais = styled.div`

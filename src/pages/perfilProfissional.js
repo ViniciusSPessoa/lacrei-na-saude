@@ -51,7 +51,7 @@ function PerfilProfissional() {
                     </Perfil>
 
                     <PropositoDeCuidado>
-                        <p><span></span>PROPÓSITO DE CUIDADO</p>
+                        <p>PROPÓSITO DE CUIDADO</p>
                         <Paragrafo>"{profissional.descricao}"</Paragrafo>
                     </PropositoDeCuidado>
 
