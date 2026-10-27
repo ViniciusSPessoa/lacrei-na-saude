@@ -1,70 +1,131 @@
-# Getting Started with Create React App
+# Lacrei Saúde
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Aplicação web desenvolvida com React para facilitar a consulta de profissionais da área da saúde, com páginas de perfil individuais e uma interface organizada e intuitiva.
 
-## Available Scripts
+## Sobre o projeto
 
-In the project directory, you can run:
+O **Lacrei Saúde** é um projeto de desenvolvimento front-end criado com o objetivo de facilitar a visualização de profissionais da saúde e de suas informações de atendimento.
 
-### `npm start`
+A aplicação permite visualizar uma lista de profissionais e acessar páginas individuais com informações específicas de cada um, proporcionando uma navegação organizada e uma experiência simples para o usuário.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+O projeto também tem como objetivo aplicar e aprimorar conhecimentos em desenvolvimento web, componentização, organização de código e criação de interfaces utilizando React.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Funcionalidades
 
-### `npm test`
+- **Listagem de profissionais:** exibição de profissionais da saúde em cards com informações individuais.
+- **Perfis individuais:** cada profissional possui uma página própria com informações específicas.
+- **Navegação entre páginas:** acesso aos perfis dos profissionais por meio da interface.
+- **Informações de atendimento:** apresentação de especialidades e características do atendimento de cada profissional.
+- **Interface personalizada:** estilização dos elementos e componentes para manter a identidade visual da aplicação.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+> **Em desenvolvimento:** a funcionalidade de busca e filtragem de profissionais ainda não está implementada.
 
-### `npm run build`
+## Tecnologias utilizadas
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- **React:** construção de interfaces e componentes reutilizáveis.
+- **JavaScript (ES6+):** implementação da lógica da aplicação e manipulação de dados.
+- **Styled-components:** estilização dos componentes utilizando CSS-in-JS.
+- **HTML5:** estruturação dos elementos da interface.
+- **CSS3:** personalização dos estilos e do layout.
+- **Yarn:** gerenciamento de dependências e execução de scripts.
+- **Git e GitHub:** versionamento e organização do código-fonte.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Estrutura do projeto
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+A organização dos arquivos pode variar conforme a estrutura atual da aplicação. Uma estrutura de referência é apresentada abaixo:
 
-### `npm run eject`
+```text
+lacrei-na-saude/
+├── public/
+├── src/
+│   ├── image/
+│   ├── components/
+│   ├── pages/
+│   ├── App.js
+│   ├── index.js
+│   └── styles.js
+├── package.json
+├── yarn.lock
+└── README.md
+```
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## Como executar o projeto
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Atualmente, a aplicação é executada localmente, em ambiente de desenvolvimento.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+### Pré-requisitos
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+Antes de começar, você precisará ter instalado:
 
-## Learn More
+- [Node.js](https://nodejs.org/)
+- [Yarn](https://yarnpkg.com/)
+- [Git](https://git-scm.com/) (opcional, caso já tenha os arquivos do projeto)
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+### 1. Clone o repositório
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+```bash
+git clone URL_DO_SEU_REPOSITORIO
+```
 
-### Code Splitting
+Substitua `URL_DO_SEU_REPOSITORIO` pelo endereço real do repositório no GitHub.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+### 2. Acesse a pasta do projeto
 
-### Analyzing the Bundle Size
+```bash
+cd lacre-saude
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+### 3. Instale as dependências
 
-### Making a Progressive Web App
+```bash
+yarn install
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+### 4. Inicie a aplicação
 
-### Advanced Configuration
+```bash
+yarn start
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+Após iniciar, acesse no navegador o endereço exibido no terminal. Normalmente, será:
 
-### Deployment
+http://localhost:3000
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+Caso essa porta esteja ocupada, o ambiente poderá indicar outra porta disponível.
 
-### `npm run build` fails to minify
+## Conceitos aplicados
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Durante o desenvolvimento, são trabalhados conceitos importantes do ecossistema React e do JavaScript, incluindo:
+
+- Criação e reutilização de componentes.
+- Organização de páginas e estilos.
+- Renderização dinâmica de listas com arrays e objetos.
+- Passagem de dados entre componentes.
+- Criação de páginas de perfil individuais para profissionais.
+- Navegação entre diferentes páginas da aplicação.
+- Estilização de componentes com styled-components.
+- Separação entre estrutura, lógica e apresentação da interface.
+
+## Próximas melhorias
+
+Algumas melhorias planejadas para a evolução do projeto incluem:
+
+- Implementar a busca e a filtragem de profissionais.
+- Aprimorar a responsividade para dispositivos móveis.
+- Desenvolver a funcionalidade de agendamento de consultas.
+- Implementar testes automatizados.
+- Integrar uma API para obter os dados dos profissionais.
+- Desenvolver um back-end e integrar um banco de dados.
+- Publicar a aplicação para acesso pela internet.
+
+## Status do projeto
+
+**Em desenvolvimento.**
+
+A aplicação possui uma interface para visualização de profissionais e navegação para páginas de perfil individuais. Novas funcionalidades estão sendo planejadas e implementadas progressivamente.
+
+## Autor
+
+**Vinícius Souza Pessoa**
+
+Estudante de Análise e Desenvolvimento de Sistemas, com foco em desenvolvimento web e aprimoramento de habilidades em JavaScript e React.
