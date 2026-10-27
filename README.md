@@ -64,15 +64,13 @@ Antes de começar, você precisará ter instalado:
 ### 1. Clone o repositório
 
 ```bash
-git clone URL_DO_SEU_REPOSITORIO
+git https://github.com/ViniciusSPessoa/lacrei-na-saude.git
 ```
-
-Substitua `URL_DO_SEU_REPOSITORIO` pelo endereço real do repositório no GitHub.
 
 ### 2. Acesse a pasta do projeto
 
 ```bash
-cd lacre-saude
+cd lacrei-saude
 ```
 
 ### 3. Instale as dependências
